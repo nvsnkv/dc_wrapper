@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevCon.Wrapper", "DevCon.Wrapper.csproj", "{A92420D3-D604-488D-9140-32E90924161E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevCon.Wrapper", "DevCon.Wrapper\DevCon.Wrapper.csproj", "{A92420D3-D604-488D-9140-32E90924161E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevCon.Wrapper.Test", "..\DevCon.Wrapper.Test\DevCon.Wrapper.Test.csproj", "{50F25A89-6AAC-4385-9679-2505B4A6B509}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevCon.Wrapper.Test", "DevCon.Wrapper.Test\DevCon.Wrapper.Test.csproj", "{50F25A89-6AAC-4385-9679-2505B4A6B509}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
