@@ -52,7 +52,9 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="CommandBuilderShould.cs" />
+    <Compile Include="BuildConfiguratorShould.cs" />
+    <Compile Include="ConfiguratorShould.cs" />
+    <Compile Include="ConfiguratorTestBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
