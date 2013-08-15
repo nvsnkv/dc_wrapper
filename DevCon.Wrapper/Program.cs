@@ -12,7 +12,11 @@ namespace DevCon.Wrapper
             var configurator = ConfiguratorFactory.Create(args);
             
             var process = Process.Start(configurator.Info);
-            process.StandardInput.WriteLine(configurator.Command);
+            
+            if(!string.IsNullOrEmpty(configurator.Command))
+            {
+                process.StandardInput.WriteLine(configurator.Command);
+            }
         }
     }
 }

@@ -14,6 +14,7 @@ namespace DevCon.Wrapper.Configurators
             ParseArgs(args, i);
             GenerateCommand();
 
+            Info.RedirectStandardInput = true;
         }
 
         private void GenerateCommand()

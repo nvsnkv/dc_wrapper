@@ -134,6 +134,14 @@ namespace DevCon.Wrapper.Test
             Assert.True(Configutator.Command.Contains("file.file"));
         }
 
+        [Test]
+        public void RedirectStandartInput()
+        {
+            Configutator.Setup(new[] { "build", "file.file", "-log" });
+
+            Assert.True(Configutator.Info.RedirectStandardInput);
+        }
+
         protected BuildConfigurator BuildConfigurator { get { return (BuildConfigurator) Configutator; }}
 
         protected override Configurator CreateConfigurator()
