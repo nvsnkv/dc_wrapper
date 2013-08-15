@@ -53,11 +53,15 @@
   </Choose>
   <ItemGroup>
     <Compile Include="BuildConfiguratorShould.cs" />
+    <Compile Include="ConfiguratorFactoryShould.cs" />
     <Compile Include="ConfiguratorShould.cs" />
     <Compile Include="ConfiguratorTestBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="file.file">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
